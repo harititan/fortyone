@@ -17,7 +17,7 @@
     //]]>
     </Script>
 
-    {{ template "_internal/google_analytics_async.html" . }}
+    {{ template "_internal/google_analytics.html" . }}
 
     {{ range .Site.Params.custom_js }}
         <script src="{{ . | absURL }}"></script>
